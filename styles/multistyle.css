@@ -4,6 +4,10 @@
 #11D97C hover green
 #161616 black bg
 #035949 contact card bg
+#08A689 light green bg
+#00333181 account/checkout bg
+#CFCFCF light grey
+#38706D checkout h1
 */
 
 
@@ -19,6 +23,33 @@ body {
 header {
     height: 100vh;
 }
+/*BUTTONS*/
+.btn-add-cart_black {
+    background-color: #161616;
+}
+
+.btn-add-cart_black:hover {
+    color: #11D97C;
+}
+
+.favourite_black {
+    background-color: #161616;
+}
+
+.favourite_black:hover {
+    color: #11D97C;
+}
+
+.btn-left-small {
+    color: white;
+}
+
+
+/*COLOR FOR GAMES-MAIN TITLE*/
+.game-header_green {
+    color: #11D97C;
+}
+
 
 /*PRIMARY NAVIGATION*/
 .primary-nav {
@@ -36,6 +67,26 @@ header {
     color: #11D97C;
 }
 
+
+/*GAMES NAVIGATION*/
+.games-nav a:hover {
+    color: #11D97C;
+    text-decoration: underline;
+}
+
+.games-nav ul li .on-page_games-nav {
+    color: #11D97C;
+    text-decoration: underline;
+}
+
+
+/*ACCOUNT NAVIGATION*/
+.account-nav a:hover {
+    color: #11D97C;
+    text-decoration: underline;
+}
+
+
 /*FOOTER*/
 footer {
     background-color: #161616;
@@ -44,3 +95,4 @@ footer {
 footer a:hover {
     color: #11D97C;
 }
+

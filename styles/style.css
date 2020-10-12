@@ -42,5 +42,120 @@ a {
 }
 
 /*CONTACT*/
+.contact-cards-email, .contact-cards-phone {
+    background-color: #035949;
+}
 
+/*GAMES-MAIN*/
+.games_preo-main-info {
+    background-color: #161616;
+}
 
+.games_preo-main-info h3 {
+    color: #11D97C;
+}
+
+.games_preo-main-info a {
+    background-color: #08A689;
+}
+
+/*GAMES*/
+.games-description {
+    background-color: #161616;
+}
+
+/*CART*/
+.cart-cards > div {
+    background-color: #00333181;
+}
+
+.cart-cards .trash-can {
+    color: #CFCFCF;
+}
+
+.total-sum a {
+    background-color: #161616;
+}
+
+.total-sum a:hover {
+    color: #11D97C;
+}
+
+/*CART NO ITEM*/
+.no-item_section {
+    background-color: #00333181;
+}
+
+.no-item_section div a {
+    background-color: #161616;
+}
+
+.no-item_section div a:hover {
+    color: #11D97C;
+}
+
+/*CHECKOUT-1*/
+.checkout-1_card {
+    background-color: white;
+}
+
+.checkout-1_card h1 {
+    color: #38706D;
+}
+
+/*CHECKOUT-2*/
+.checkout-2_card {
+    background-color: white;
+}
+
+.checkout-2_card h1 {
+    color: #38706D;
+}
+
+/*CHECKOUT COMPLETE*/
+.checkout-complete_card {
+    background-color: white;
+    color: black;
+}
+
+.checkout-complete_card h1 {
+    color: #38706D;
+}
+
+.checkout-complete_card a {
+    color: white;
+    background-color: #08A689;
+}
+
+.checkout-complete_card a:hover {
+    background-color: #00524f;
+}
+
+/*SIGN IN*/
+.login-card {
+    background-color: white;
+}
+
+.login-card h1 {
+    color: #38706D;
+}
+
+.forgot-pw {
+    color: #CFCFCF;
+}
+
+.forgot-pw:hover {
+    color:#11D97C;
+}
+
+.login-card p {
+    color: #CFCFCF;
+}
+
+.btn-sign {
+    color: black;
+}
+
+.btn-sign:hover {
+    color:#11D97C;
+}
