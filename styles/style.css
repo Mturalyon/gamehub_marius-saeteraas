@@ -41,11 +41,28 @@ a {
     background-color: #161616;
 }
 
+.header-index {
+    background-image: linear-gradient(#003331e3, #00fff7ea),
+    url(/images/background/index-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
+
 /*CONTACT*/
 .contact-cards-email, .contact-cards-phone {
     background-color: #035949;
 }
 
+.header-contact {
+    background-image: linear-gradient(#003331e3, #00fff7ea),
+    url(/images/background/contact-background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 100vh;
+}
 /*GAMES-MAIN*/
 .games_preo-main-info {
     background-color: #161616;
