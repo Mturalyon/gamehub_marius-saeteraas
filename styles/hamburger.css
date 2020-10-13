@@ -1,0 +1,15 @@
+ul {
+    display: none;
+}
+
+#hamburger-menu:checked + ul {
+    display: block;
+}
+
+#hamburger-menu {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
