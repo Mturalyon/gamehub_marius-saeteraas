@@ -23,7 +23,7 @@ body {
 
 
 
-/*BUTTONS*/
+/*-----BUTTONS-----*/
 .btn-add-cart_black {
     background-color: #161616;
 }
@@ -45,13 +45,13 @@ body {
 }
 
 
-/*COLOR FOR GAMES-MAIN TITLE*/
+/*-----COLOR FOR GAMES-MAIN TITLE-----*/
 .game-header_green {
     color: #11D97C;
 }
 
 
-/*PRIMARY NAVIGATION*/
+/*-----PRIMARY NAVIGATION-----*/
 .primary-nav {
     padding: 0.2rem 4rem;
     display: flex;
@@ -85,7 +85,7 @@ body {
 }
 
 
-/*GAMES NAVIGATION*/
+/*-----GAMES NAVIGATION-----*/
 .games-nav a:hover {
     color: #11D97C;
     text-decoration: underline;
@@ -97,14 +97,14 @@ body {
 }
 
 
-/*ACCOUNT NAVIGATION*/
+/*-----ACCOUNT NAVIGATION-----*/
 .account-nav a:hover {
     color: #11D97C;
     text-decoration: underline;
 }
 
 
-/*FOOTER*/
+/*-----FOOTER-----*/
 footer {
     background-color: #161616;
     padding: 2rem;
@@ -131,12 +131,12 @@ footer h2 {
     margin-right: 20rem;
 }
 
-/*BLACK OPS ONE STYLE CLASS*/
+/*-----BLACK OPS ONE STYLE CLASS-----*/
 .style_b-ops {
     font-family: 'Black Ops One', 'Open Sans', cursive, arial;
 }
 
-/*WRAPPER*/
+/*-----WRAPPER-----*/
 .wrapper {
     display: flex;
     align-items: center;

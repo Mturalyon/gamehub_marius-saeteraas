@@ -1,6 +1,6 @@
 
 
-/*--GLOBAL SETTINGS--*/
+/*-----GLOBAL SETTINGS-----*/
 *,
 *::after,
 *::before {
@@ -28,11 +28,10 @@ a {
     color: white;
 }
 
-/*--INDEX--*/
-/*header--
-*/
+/*-----INDEX-----*/
+/*header--*/
 .header-index {
-    background-image: linear-gradient(#003331e3, #00fff7ea),
+    background-image: linear-gradient(#002927f1, #00fff7ea),
     url(/images/background/index-background.jpg);
     background-size: cover;
     background-repeat: no-repeat;
@@ -63,6 +62,7 @@ a {
 
 .index_hero-content h3 a {
     color: #11D97C;
+    font-style: italic;
 }
 .index_hero-content h3 a:hover {
     text-decoration: underline;
@@ -81,8 +81,7 @@ a {
     margin-bottom: 5rem;
 }
 
-/*main--
-*/
+/*main--*/
 .index_main {
     align-items: center;
     display: flex;
@@ -121,7 +120,7 @@ a {
     font-weight: normal;
 }
 
-/*--CONTACT--*/
+/*-----CONTACT-----*/
 .contact-cards-email, .contact-cards-phone {
     background-color: #035949;
 }
@@ -134,7 +133,41 @@ a {
     background-position: center;
     height: 100vh;
 }
-/*GAMES-MAIN*/
+
+.contact-cards {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 100%;
+    padding-top: 3rem;
+}
+
+.contact-cards-email, .contact-cards-phone {
+    width: 29rem;
+    height: 30rem;
+    padding: 2.5rem 3.2rem;
+}
+
+.contact-cards-email a, .contact-cards-phone a {
+    margin-bottom: 3rem;
+    display: block;
+}
+
+.contact-cards-email h3, .contact-cards-phone h3 {
+    margin-bottom: 0.5rem;
+    font-weight: normal;
+}
+
+.contact-cards-email h4, .contact-cards-phone h4 {
+    text-decoration: underline;
+    margin-bottom: 4rem;
+}
+
+.contact-cards-email p, .contact-cards-phone p {
+    margin-bottom: 0.7rem;
+}
+
+/*-----GAMES-MAIN-----*/
 .games_preo-main-info {
     background-color: #161616;
 }
