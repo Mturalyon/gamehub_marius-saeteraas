@@ -1,6 +1,6 @@
 
 
-/*GLOBAL SETTINGS*/
+/*--GLOBAL SETTINGS--*/
 *,
 *::after,
 *::before {
@@ -28,19 +28,9 @@ a {
     color: white;
 }
 
-/*INDEX*/
-.index_hero-content h3 a {
-    color: #11D97C;
-}
-
-.index_hero-content h2 a {
-    background-color: #161616;
-}
-
-.index_main-content {
-    background-color: #161616;
-}
-
+/*--INDEX--*/
+/*header--
+*/
 .header-index {
     background-image: linear-gradient(#003331e3, #00fff7ea),
     url(/images/background/index-background.jpg);
@@ -50,7 +40,88 @@ a {
     height: 100vh;
 }
 
-/*CONTACT*/
+.index_hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+.index_hero-btn {
+    padding: 2.2rem 4rem;
+    font-size: 2.5rem;
+    letter-spacing: 0.1rem;
+    margin-top: 2rem;
+    background-color: #161616;
+}
+
+.index_hero-btn:hover {
+    color: #11D97C;
+    text-decoration: underline;
+}
+
+.index_hero-content h3 a {
+    color: #11D97C;
+}
+.index_hero-content h3 a:hover {
+    text-decoration: underline;
+}
+
+.index_hero-content h1 {
+    font-size: 3.7rem;
+}
+
+.index_hero-content h2 {
+    margin-top: 6rem;
+    margin-bottom: 1rem;
+}
+
+.index_hero-content h3 {
+    margin-bottom: 5rem;
+}
+
+/*main--
+*/
+.index_main {
+    align-items: center;
+    display: flex;
+    padding: 6rem;
+    justify-content: center;
+    height: 90vh;
+    margin-bottom: 0.7rem;
+}
+
+.index_main div h2 {
+    margin-bottom: 1rem;
+    font-weight: normal;
+    font-size: 1.5rem;
+}
+
+.index_main-content {
+    padding: 2.5rem;
+    margin-top: 1.7rem;
+    background-color: #161616;
+    height: 32rem;
+    width: 30rem;
+}
+
+.index_main-content h3 {
+    font-size: 1.7rem;
+    letter-spacing: 0.2rem;
+    margin-bottom: 2.5rem;
+    margin-top: 1rem;
+}
+
+.index-main_p-margin {
+   margin-bottom: 7rem;
+}
+
+.index_main-content h4 {
+    font-weight: normal;
+}
+
+/*--CONTACT--*/
 .contact-cards-email, .contact-cards-phone {
     background-color: #035949;
 }

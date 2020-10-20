@@ -21,6 +21,8 @@ body {
 }
 
 
+
+
 /*BUTTONS*/
 .btn-add-cart_black {
     background-color: #161616;
@@ -51,10 +53,27 @@ body {
 
 /*PRIMARY NAVIGATION*/
 .primary-nav {
+    padding: 0.2rem 4rem;
+    display: flex;
     background-color: #141414e5;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    
 }
+
+.primary-nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
 .primary-nav a {
     color: white;
+
 }
 
 .primary-nav a:hover {
@@ -88,10 +107,28 @@ body {
 /*FOOTER*/
 footer {
     background-color: #161616;
+    padding: 2rem;
+    width: 100%;
+}
+
+footer ul {
+    display: flex;
+    align-items: center;
+    flex:1;
+}
+
+footer ul li a {
+    padding: 0 1rem;
 }
 
 footer a:hover {
     color: #11D97C;
+}
+
+footer h2 {
+    font-weight: normal;
+    font-size: 1.2rem;
+    margin-right: 20rem;
 }
 
 /*BLACK OPS ONE STYLE CLASS*/
@@ -99,3 +136,11 @@ footer a:hover {
     font-family: 'Black Ops One', 'Open Sans', cursive, arial;
 }
 
+/*WRAPPER*/
+.wrapper {
+    display: flex;
+    align-items: center;
+    max-width: 90rem;
+    justify-content: space-evenly;
+    margin: auto;
+}
