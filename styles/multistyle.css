@@ -61,7 +61,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    
+    z-index: 3;
 }
 
 .primary-nav ul {
@@ -96,6 +96,13 @@ body {
     text-decoration: underline;
 }
 
+.games-nav a {
+    font-size: 2rem;
+}
+
+.games-nav ul li {
+    margin-top: 1rem;
+}
 
 /*-----ACCOUNT NAVIGATION-----*/
 .account-nav a:hover {
@@ -115,10 +122,11 @@ footer ul {
     display: flex;
     align-items: center;
     flex:1;
+    margin-left: -2.2rem;
 }
 
 footer ul li a {
-    padding: 0 1rem;
+    margin: 0 2rem;
 }
 
 footer a:hover {
