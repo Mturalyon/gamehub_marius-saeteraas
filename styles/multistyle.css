@@ -96,8 +96,13 @@ body {
     text-decoration: underline;
 }
 
+.games-nav {
+    display: flex;
+    flex-direction: column;
+}
+
 .games-nav a {
-    font-size: 2rem;
+    font-size: 1.5rem;
 }
 
 .games-nav ul li {
