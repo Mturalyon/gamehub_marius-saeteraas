@@ -26,6 +26,9 @@ body {
 /*-----BUTTONS-----*/
 .btn-add-cart_black {
     background-color: #161616;
+    padding: 1.35rem 10rem;
+    margin-right: 2rem;
+    font-weight: bolder;
 }
 
 .btn-add-cart_black:hover {
@@ -34,6 +37,7 @@ body {
 
 .favourite_black {
     background-color: #161616;
+    padding: 1rem;
 }
 
 .favourite_black:hover {
@@ -42,12 +46,6 @@ body {
 
 .btn-left-small {
     color: white;
-}
-
-
-/*-----COLOR FOR GAMES-MAIN TITLE-----*/
-.game-header_green {
-    color: #11D97C;
 }
 
 
@@ -73,7 +71,6 @@ body {
 
 .primary-nav a {
     color: white;
-
 }
 
 .primary-nav a:hover {
@@ -151,6 +148,7 @@ footer h2 {
 
 /*-----WRAPPER-----*/
 .wrapper {
+    flex-wrap: wrap;
     display: flex;
     align-items: center;
     max-width: 90rem;

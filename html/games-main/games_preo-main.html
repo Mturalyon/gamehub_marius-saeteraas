@@ -21,7 +21,7 @@
 
 <body>
     <!-----------------------HEADER-------------------------------->
-    <header>
+    <header class="header_preo">
         <nav class="primary-nav">
             <a href="../../index.html"><img src="/images/logo.png" alt="the logo of the brand Gamehub"></a>
             <ul>
@@ -34,26 +34,32 @@
             </ul>
         </nav>
 
-        <h1 class="style_b-ops">GAMES</h1>
-        <h2 class="game-header_green">PRE-ORDER</h2>
-        <nav class="games-nav">
-            <ul>
-                <li><a href="games_xbox-main.html">XBOX</a></li>
-                <li><a href="games_ps-main.html">PLAYSTATION</a></li>
-                <li><a href="games_nintendo-main.html">NINTENDO</a></li>
-                <li><a href="games_pc-main.html">PC</a></li>
-                <li><a href="games_preo-main.html" class="on-page_games-nav">PRE-ORDER</a></li>
-            </ul>
-        </nav>
+        <div class="flex-center">
+            <h2 class="game-header_green">PRE-ORDER</h2>
+        </div>
+        <div class="console-game_container">
+            <nav class="games-nav">
+                <ul>
+                    <li><a href="games_xbox-main.html">XBOX</a></li>
+                    <li><a href="games_ps-main.html">PLAYSTATION</a></li>
+                    <li><a href="games_nintendo-main.html">NINTENDO</a></li>
+                    <li><a href="games_pc-main.html">PC</a></li>
+                    <li><a href="games_preo-main.html" class="on-page_games-nav">PRE-ORDER</a></li>
+                </ul>
+            </nav>
 
-        <a href="../games/preo-1.html"><img src="/images/games-main/preo-main-1.jpg"
-                alt="picture link to game page"></a>
-        <div class="preo_main-content">
-            <h3>WoW: Shadowlands</h3>
-            <p>The next expansion in the massive WoW franchise! Releasing this autumn.</p>
-            STARS
-            <a href="#">Add to cart</a>
-            <a href="#"><i class="fas fa-heart fa-2x"></i></a>
+            <div class="preo-main_container">
+                <a href="../games/preo-1.html"><img src="/images/games-main/preo-main-1.jpg"
+                        alt="picture link to game page"></a>
+                <div class="preo_main-content">
+                    <h3>WoW: Shadowlands</h3>
+                    <p>The next expansion in the massive WoW franchise! Releasing this autumn.</p>
+                    <div>
+                        <a href="#" class="preo-button">Add to cart</a>
+                        <a href="#"><i class="fas fa-heart fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
         </div>
     </header>
     <!-----------------------FOOTER-------------------------------->
