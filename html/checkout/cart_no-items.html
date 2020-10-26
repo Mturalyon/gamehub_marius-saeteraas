@@ -20,7 +20,7 @@
 
 <body>
     <!-----------------------HEADER-------------------------------->
-    <header>
+    <header class="no-items_header">
         <nav class="primary-nav">
             <a href="../../index.html"><img src="/images/logo.png" alt="the logo of the brand Gamehub"></a>
             <ul>
@@ -33,25 +33,36 @@
             </ul>
         </nav>
 
-        <nav class="games-nav">
-            <ul>
-                <li><a href="../games-main/games_xbox-main.html">XBOX</a></li>
-                <li><a href="../games-main/games_ps-main.html">PLAYSTATION</a></li>
-                <li><a href="../games-main/games_nintendo-main.html">NINTENDO</a></li>
-                <li><a href="../games-main/games_pc-main.html">PC</a></li>
-                <li><a href="../games-main/games_preo-main.html">PRE-ORDER</a></li>
-            </ul>
-        </nav>
-        <!----------------SECTION OF CARDS---------------------->
-        <section class="no-item_section">
-            <h1>Your Cart (0 items)</h1>
-            <div>
-                <img src="/images/noItems-logo.png" alt="Logo of the brand">
-                <h2>You dont have any products in your shopping cart</h2>
-                <a href="/html/games-main/games-main.html">CONTINUE SHOPPING</a>
-            </div>
+        <div class="flex-center">
+            <h2 class="game-header_green">CART</h2>
+        </div>
 
-        </section>
+        <div class="cart-flex">
+            <nav class="games-nav">
+                <ul>
+                    <li><a href="../games-main/games_xbox-main.html">XBOX</a></li>
+                    <li><a href="../games-main/games_ps-main.html">PLAYSTATION</a></li>
+                    <li><a href="../games-main/games_nintendo-main.html">NINTENDO</a></li>
+                    <li><a href="../games-main/games_pc-main.html">PC</a></li>
+                    <li><a href="../games-main/games_preo-main.html">PRE-ORDER</a></li>
+                </ul>
+            </nav>
+            <!----------------SECTION OF CARDS---------------------->
+            <div class="cart-no-items_wrapper">
+
+                <h1>Your Cart (0 items)</h1>
+                <section class="no-item_section">
+
+                    <div>
+                        <img class="no-items_logo" src="/images/noItems-logo.png" alt="Logo of the brand">
+                        <h2>You dont have any products in your shopping cart</h2>
+                        <a href="/html/games-main/games-main.html">CONTINUE SHOPPING</a>
+                    </div>
+
+                </section>
+
+            </div>
+        </div>
     </header>
     <!-----------------------FOOTER-------------------------------->
     <footer>

@@ -33,65 +33,80 @@
             </ul>
         </nav>
 
-        <nav class="games-nav">
-            <ul>
-                <li><a href="../games-main/games_xbox-main.html">XBOX</a></li>
-                <li><a href="../games-main/games_ps-main.html">PLAYSTATION</a></li>
-                <li><a href="../games-main/games_nintendo-main.html">NINTENDO</a></li>
-                <li><a href="../games-main/games_pc-main.html">PC</a></li>
-                <li><a href="../games-main/games_preo-main.html">PRE-ORDER</a></li>
-            </ul>
-        </nav>
-        <!----------------SECTION OF CARDS---------------------->
-        <section class="cart-cards">
-            <h1>Your Cart (1 item)</h1>
+        <div class="flex-center">
+            <h2 class="game-header_green">CART</h2>
+        </div>
 
-            <div>
-                <a href="/html/games/xbox-2.html"><img src="/images/cartI_tem-1.jpg"
-                        alt="image link to game page of product"></a>
-                <div>
-                    <h2>Forza Horizon 4</h2>
-                    <h3>XBOX One</h3>
-                    STARS
-                    <h4>Used</h4>
-                    <h4>Disc</h4>
-                </div>
-                <div>
-                    Profile Picture
-                    <h4>SillaCard1</h4>
-                    <p>150, 00 kr</p>
-                </div>
-                <a href="cart_no-items.html" class="trash-can"><i class="fas fa-trash"></i>Remove</a>
-            </div>
+        <div class="cart-flex">
+            <nav class="games-nav">
+                <ul>
+                    <li><a href="../games-main/games_xbox-main.html">XBOX</a></li>
+                    <li><a href="../games-main/games_ps-main.html">PLAYSTATION</a></li>
+                    <li><a href="../games-main/games_nintendo-main.html">NINTENDO</a></li>
+                    <li><a href="../games-main/games_pc-main.html">PC</a></li>
+                    <li><a href="../games-main/games_preo-main.html">PRE-ORDER</a></li>
+                </ul>
+            </nav>
+            <!----------------SECTION OF CARDS---------------------->
+            <section class="cart-cards">
+                <h1>Your Cart (1 item)</h1>
+                <div class="cart-cards_row-1">
+                    <div class="cart-cards_row-1_1">
+                        <div class="img-remove_container">
+                            <a href="/html/games/xbox-2.html"><img src="/images/cartI_tem-1.jpg"
+                                    alt="image link to game page of product"></a>
+                            <a href="cart_no-items.html" class="trash-can"><i class="fas fa-trash"></i>Remove</a>
+                        </div>
+                        <div class="cart-cards_row-1_2">
+                            <div>
+                                <h2>Forza Horizon 4</h2>
+                                <h3>XBOX One</h3>
+                                <h4>Used</h4>
+                                <h4>Disc</h4>
+                            </div>
+                            <div>
+                                <h4 class="cart-margin">SillaCard1</h4>
+                                <p>150, 00 kr</p>
+                            </div>
+                        </div>
+                    </div>
 
-            <div class="total-sum">
-                <h3>Total Sum</h3>
-                <div>
-                    <h4>Item Cost</h4>
-                    <h4>Shipment</h4>
-                    <h4>Total Sum</h4>
+                    <div class="total-sum">
+                        <h3>Total Sum</h3>
+                        <div class="total-sum_2">
+                            <div>
+                                <h4>Item Cost</h4>
+                                <h4>Shipment</h4>
+                                <hr>
+                                <h4>Total Sum</h4>
+                            </div>
+                            <div>
+                                <h4>150, 00 kr</h4>
+                                <h4>50, 00 kr</h4>
+                                <hr>
+                                <h4>200, 00 kr</h4>
+                            </div>
+                        </div>
+                        <a href="checkout-1.html">TO CHECKOUT</a>
+                    </div>
                 </div>
-                <div>
-                    <h4>150, 00 kr</h4>
-                    <h4>50, 00 kr</h4>
-                    <h4>200, 00 kr</h4>
+
+                <div class="cart-cards_row-2">
+                    <h3>Expected Delivery Time</h3>
+                    <p>Mon. 17.09. - Tue. 22.09.</p>
                 </div>
-                <a href="checkout-1.html">TO CHECKOUT</a>
-            </div>
 
-            <div>
-                <h3>Expected Delivery Time</h3>
-                <p>Mon. 17.09. - Tue. 22.09.</p>
-            </div>
-
-            <div>
-                <h3>We Accept</h3>
-                <i class="fab fa-cc-visa"></i>
-                <i class="fab fa-cc-paypal"></i>
-                <i class="fab fa-cc-amex"></i>
-                <i class="fab fa-cc-mastercard"></i>
-            </div>
-        </section>
+                <div class="cart-cards_row-2">
+                    <h3>We Accept</h3>
+                    <div>
+                        <i class="fab fa-cc-visa fa-2x"></i>
+                        <i class="fab fa-cc-paypal fa-2x"></i>
+                        <i class="fab fa-cc-amex fa-2x"></i>
+                        <i class="fab fa-cc-mastercard fa-2x"></i>
+                    </div>
+                </div>
+            </section>
+        </div>
     </header>
     <!-----------------------FOOTER-------------------------------->
     <footer>
