@@ -46,8 +46,14 @@ body {
 
 .btn-left-small {
     color: white;
+    position: absolute;
+    top: 12rem;
+    left: 10rem;
 }
 
+.btn-left-small:hover {
+    color: #11D97C;
+}
 
 /*-----PRIMARY NAVIGATION-----*/
 .primary-nav {
@@ -154,4 +160,8 @@ footer h2 {
     max-width: 90rem;
     justify-content: space-evenly;
     margin: auto;
+}
+
+.full-vh_header {
+    height: 100vh;
 }

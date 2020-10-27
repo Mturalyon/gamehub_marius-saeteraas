@@ -20,7 +20,7 @@
 
 <body>
     <!-----------------------HEADER-------------------------------->
-    <header>
+    <header class="full-vh_header padding-top">
         <nav class="primary-nav">
             <a href="../../index.html"><img src="/images/logo.png" alt="the logo of the brand Gamehub"></a>
             <ul>
@@ -34,28 +34,58 @@
         </nav>
 
         <a href="checkout-1.html" class="btn-left-small"><i class="fas fa-caret-square-left fa-3x"></i></a>
-        <img src="/images/background/login-background_2.jpg" alt="picture of selected product">
-        <div class="checkout-2_card">
-            <h1>Checkout</h1>
-            <form action="">
-                <input type="text">
-                <input type="number" name="" id="">
-                <input type="date" name="" id="">
-                <input type="number" name="" id="">
-                <div>
+        <div class="checkout-flex">
+            <div class="checkout-1_card">
+                <h1>Checkout</h1>
+                <form action="#" method="GET">
                     <div>
-                        <h3>Subtotal</h3>
-                        <h3>Shipping</h3>
-                        <h2>Grand Total</h2>
+                        <label for="cardholder">CARDHOLDER</label>
+                        <input type="text" name="cardholder" id="cardholder"
+                            placeholder="Full name of the card's owner">
                     </div>
+
                     <div>
-                        <h3>150, 00 kr</h3>
-                        <h3>50, 00 kr</h3>
+                        <label for="cardnumber">CARD NUMBER</label>
+                        <input type="number" name="cardnumber" id="cardnumber" placeholder="Card Number">
+                    </div>
+
+                    <div class="checkout-flex_expiration">
+                        <div class="expiration">
+                            <label for="expiration">EXPIRY DATE</label>
+                            <input type="date" name="expiration" id="expiration">
+                        </div>
+
+                        <div>
+                            <label for="cvv">CVV</label>
+                            <input type="number" name="cvv" id="cvv" placeholder="CVV code">
+                        </div>
+                    </div>
+                </form>
+
+                <div class="checkout-flex_2">
+
+                    <hr>
+
+                    <div class="checkout-flex_2-1">
+                        <div>
+                            <h3>Subtotal</h3>
+                            <h3>Shipping</h3>
+                        </div>
+                        <div>
+                            <h3>150, 00 kr</h3>
+                            <h3>50, 00 kr</h3>
+                        </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="checkout-flex_2-1">
+                        <h2>Grand Total</h2>
                         <h2>200, 00 kr</h2>
                     </div>
+                    <a href="checkout-complete.html">CHECKOUT NOW</a>
                 </div>
-                <a href="checkout-complete.html"><input type="submit" value="CHECKOUT NOW"></a>
-            </form>
+            </div>
         </div>
     </header>
     <!-----------------------FOOTER-------------------------------->
