@@ -20,7 +20,7 @@
 
 <body>
     <!-----------------------HEADER-------------------------------->
-    <header>
+    <header class="full-vh_header padding-top">
         <nav class="primary-nav">
             <a href="../../index.html"><img src="/images/logo.png" alt="the logo of the brand Gamehub"></a>
             <ul>
@@ -33,19 +33,26 @@
             </ul>
         </nav>
 
-        <img src="/images/background/login-background_2.jpg" alt="picture of selected product">
-        <div class="login-card">
-            <h1>Login</h1>
-            <form action="">
-                <input type="email" name="" id="">
-                <input type="password" name="" id="">
+        <div class="checkout-flex">
+            <div class="login-card">
+                <h1>Login</h1>
+                <form action="#" method="GET">
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                    </div>
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="Password">
+                    </div>
+                </form>
+
                 <a href="#" class="forgot-pw">Forgot Password?</a>
-                <input type="submit" value="LOG IN">
-            </form>
-            <p>Have not Account Yet?</p>
-            <a href="sign-up.html" class="btn-sign">SIGN UP</a>
+                <a href="/html/account/account.html" class="login-button">LOG IN</a>
+                <p>Have not Account Yet?</p>
+                <a href="sign-up.html" class="btn-sign">SIGN UP</a>
+            </div>
         </div>
-        <img src="/images/background/login-background_1.jpg" alt="picture of selected product">
     </header>
     <!-----------------------FOOTER-------------------------------->
     <footer>

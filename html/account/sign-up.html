@@ -20,7 +20,7 @@
 
 <body>
     <!-----------------------HEADER-------------------------------->
-    <header>
+    <header class="full-vh_header padding-top">
         <nav class="primary-nav">
             <a href="../../index.html"><img src="/images/logo.png" alt="the logo of the brand Gamehub"></a>
             <ul>
@@ -33,17 +33,35 @@
             </ul>
         </nav>
 
-        <div class="login-card">
-            <h1>Register</h1>
-            <form action="">
-                <input type="text" name="" id="">
-                <input type="email" name="" id="">
-                <input type="password" name="" id="">
-                <input type="password" name="" id="">
-                <input type="submit" value="CREATE ACCOUNT">
-            </form>
-            <p>Already Have An Account?</p>
-            <a href="sign-in.html" class="btn-sign">SIGN IN</a>
+        <div class="checkout-flex">
+            <div class="login-card" id="signup-card">
+                <h1>Register</h1>
+                <form action="#" method="GET">
+                    <div>
+                        <label for="name">NAME</label>
+                        <input type="text" name="name" id="name" placeholder="First and last name">
+                    </div>
+
+                    <div>
+                        <label for="email">EMAIL</label>
+                        <input type="email" name="email" id="email" placeholder="Your Email">
+                    </div>
+
+                    <div>
+                        <label for="password">PASSWORD</label>
+                        <input type="password" name="password" id="password" placeholder="Enter Password">
+                    </div>
+
+                    <div>
+                        <label for="confirm">CONFIRM PASSWORD</label>
+                        <input type="password" name="confirm" id="confirm" placeholder="Confirm your password"
+                            class="confirm">
+                    </div>
+                </form>
+                <a href="/html/account/account.html" class="login-button">LOG IN</a>
+                <p>Already Have An Account?</p>
+                <a href="sign-in.html" class="btn-sign">SIGN IN</a>
+            </div>
         </div>
     </header>
     <!-----------------------FOOTER-------------------------------->
