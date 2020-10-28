@@ -802,3 +802,20 @@ select:focus {
 .confirm {
     margin-bottom: 4rem;
 }
+
+/*-----ACCOUNT-----*/
+.account-flex {
+    padding: 8rem 25rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.account-flex section {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 5rem;
+}
+
+.account-flex_profile {
+    display: flex;
+}
