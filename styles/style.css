@@ -53,6 +53,7 @@ a {
     letter-spacing: 0.1rem;
     margin-top: 2rem;
     background-color: #161616;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
 }
 
 .index_hero-btn:hover {
@@ -91,6 +92,10 @@ a {
     margin-bottom: 0.7rem;
 }
 
+.index_main img {
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
+}
+
 .index_main div h2 {
     margin-bottom: 1rem;
     font-weight: normal;
@@ -103,6 +108,7 @@ a {
     background-color: #161616;
     height: 32rem;
     min-width: 30rem;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
 }
 
 .index_main-content h3 {
@@ -136,7 +142,7 @@ a {
     align-items: center;
     justify-content: space-evenly;
     height: 100%;
-    padding-top: 3rem;
+    padding-top: 2rem;
 }
 
 .contact-cards-email, .contact-cards-phone {
@@ -144,11 +150,13 @@ a {
     height: 30rem;
     padding: 2.5rem 3.2rem;
     background-color: #035949;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
 }
 
-.contact-cards-email a, .contact-cards-phone a {
-    margin-bottom: 3rem;
+.contact-cards-email img, .contact-cards-phone img {
     display: block;
+    margin: auto;
+    margin-bottom: 2.5rem;
 }
 
 .contact-cards-email h3, .contact-cards-phone h3 {
@@ -355,7 +363,7 @@ a {
     padding-left: 5rem;
     margin-right: 10rem;
 }
-.games-specific_container img {
+.games-specific_game-img {
     margin-right: 5rem;
     max-width: 25rem;
     max-height: 30rem;
@@ -382,6 +390,11 @@ a {
 .games-specific_margin-h4 {
     margin-bottom: 1.5rem;
     font-weight: bold;
+}
+
+.games-specific_profile-container {
+    text-align: center;
+    line-height: 1.5;
 }
 
 .games-specific_button-container {
@@ -456,7 +469,11 @@ a {
 }
 
 .cart-cards_row-1_2 .cart-margin {
-    margin-bottom: 8.5rem;
+    margin-bottom: 4.5rem;
+}
+
+.cart-cards_profile-container {
+    text-align: center;
 }
 
 .img-remove_container {
