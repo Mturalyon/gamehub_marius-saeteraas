@@ -30,6 +30,7 @@ body {
     padding: 1.35rem 10rem;
     margin-right: 2rem;
     font-weight: bolder;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
 }
 
 .btn-add-cart_black:hover {
@@ -39,6 +40,7 @@ body {
 .favourite_black {
     background-color: #161616;
     padding: 1rem;
+    filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
 }
 
 .favourite_black:hover {
