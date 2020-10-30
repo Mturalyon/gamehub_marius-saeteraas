@@ -90,7 +90,6 @@ body {
     color: #11D97C;
 }
 
-
 /*-----GAMES NAVIGATION-----*/
 .games-nav a:hover {
     color: #11D97C;
@@ -127,17 +126,23 @@ footer {
     background-color: #161616;
     padding: 2rem;
     width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.social-container {
+    display: flex;
 }
 
 footer ul {
     display: flex;
     align-items: center;
-    flex:1;
-    margin-left: -2.2rem;
 }
 
 footer ul li a {
-    margin: 0 2rem;
+    padding: 1rem;
+    align-self: center;
 }
 
 footer a:hover {
@@ -147,7 +152,7 @@ footer a:hover {
 footer h2 {
     font-weight: normal;
     font-size: 1.2rem;
-    margin-right: 20rem;
+    margin-right: 2.5rem;
 }
 
 /*-----BLACK OPS ONE STYLE CLASS-----*/
@@ -155,16 +160,41 @@ footer h2 {
     font-family: 'Black Ops One', 'Open Sans', cursive, arial;
 }
 
-/*-----WRAPPER-----*/
-.wrapper {
-    flex-wrap: wrap;
-    display: flex;
-    align-items: center;
-    max-width: 90rem;
-    justify-content: space-evenly;
-    margin: auto;
-}
-
 .full-vh_header {
     height: 100vh;
+}
+
+/*_____MEDIA-QUERIES max:900px_____*/
+@media screen and (max-width: 900px) {
+    /*_PRIMARY NAV_*/
+    .primary-nav {
+        flex-direction: column;
+        position: static;
+    }
+    .primary-nav ul {
+        flex-wrap: wrap;
+    }
+    .primary-nav a {
+        padding: 0.5rem;
+    }
+    /*_FOOTER_*/
+    footer {
+        flex-direction: column;
+    }
+    footer h2 {
+        display: none;
+    }
+    .social-container {
+        margin-bottom: 1rem;
+    }
+
+}
+/*_____MEDIA-QUERIES max:430px_____*/
+@media screen and (max-width: 430px) {
+    .primary-nav {
+        padding: 0 0 0.4rem 0;
+    }
+    .primary-nav a img {
+        width: 15rem;
+    }
 }

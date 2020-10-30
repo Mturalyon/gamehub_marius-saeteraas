@@ -172,6 +172,25 @@ a {
     margin-bottom: 0.7rem;
 }
 /*_____CONTACT media-queries_____*/
+@media screen and (max-width: 900px) {
+    .header-contact {
+        height: 100%;
+    }
+    .contact-cards {
+        flex-direction: column;
+        padding-top: 4rem;
+        padding-bottom: 2rem;
+    }
+}
+@media screen and (max-width: 500px) {
+    .contact-cards-email, .contact-cards-phone {
+        width: 100%;
+        height: 30rem;
+        padding: 2.5rem 1rem;
+        background-color: #035949;
+        filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
+    }
+}
 
 /*-----GAMES-MAIN-----*/
 /*header--*/
