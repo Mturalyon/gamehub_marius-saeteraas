@@ -85,10 +85,10 @@ a {
 .index_main {
     align-items: center;
     display: flex;
-    padding: 6rem;
     justify-content: center;
-    height: 90vh;
-    margin-bottom: 0.7rem;
+    height: 100%;
+    padding-top: 4rem;
+    margin-bottom: 4rem;
 }
 
 .index_main img {
@@ -102,8 +102,8 @@ a {
 }
 
 .index_main-content {
+    margin-top: 2rem;
     padding: 2.5rem;
-    margin-top: 1.7rem;
     background-color: #161616;
     height: 32rem;
     min-width: 30rem;
@@ -929,6 +929,38 @@ select:focus {
 
 /*_____media-queries MAX 1500px_____*/
 @media screen and (max-width: 1500px) {
+    /*__INDEX__*/
+    /*main*/
+    .index_main a img {
+        width: 32rem;
+    }
+    .index_main div h2 {
+        margin-bottom: 0;
+    }
+    .index_main-content {
+        margin-top: 2rem;
+        padding: 1rem;
+        height: 20rem;
+        min-width: 23rem;
+    }
+    .index_main-content h3 {
+        font-size: 1.5rem;
+        margin-bottom: 1rem;
+        margin-top: 0.5rem;
+    }
+    .index_main-content h4 {
+        font-weight: normal;
+    }
+    .index_main-content p {
+        font-size: 0.8rem;
+    }
+    .index_main-content img {
+        width: 4rem;
+    }
+    .index-main_p-margin {
+       margin-bottom: 2rem;
+    }
+
     /*__CONSOLE MAIN PAGES__*/
     /*preo*/
     .preo-main_container img {
@@ -963,6 +995,7 @@ select:focus {
     .header_preo {
         height: 100%;
     }
+
     /*__GAMES-MAIN__*/
     /*header*/
     .games-main_primary-nav {
@@ -1011,6 +1044,46 @@ select:focus {
 
 /*_____media-queries MAX 900px_____*/
 @media screen and (max-width: 900px) {
+    /*__INDEX__*/
+    /*header*/
+    .header-index {
+        height: 100%;
+    }
+    .index_hero-content {
+        padding: 5rem 0 5rem;
+    }
+    .index_hero-btn {
+        padding: 2rem 3rem;
+        margin-top: 0;
+        font-size: 2rem;
+    }
+    .index_hero-content h1 {
+        font-size: 2rem;
+    }
+    
+    .index_hero-content h2 {
+        margin-top: 4rem;
+        font-size: 1.2rem;
+    }
+    
+    .index_hero-content h3 {
+        font-size: 1rem;
+    }
+    /*main*/
+    .index_main {
+        text-align: center;
+        flex-direction: column;
+    }
+    .index_main a img {
+        width: 25rem;
+    }
+    .index_main-content {
+        margin-top: 0;
+        padding: 1rem;
+        height: 20rem;
+        min-width: 25rem;
+    }
+
     /*__CONTACT__*/
     .header-contact {
         height: 100%;
@@ -1020,6 +1093,7 @@ select:focus {
         padding-top: 4rem;
         padding-bottom: 2rem;
     }
+
     /*__CONSOLE MAIN PAGES__*/
     .game-header_green {
         margin-top: 3rem;
@@ -1045,6 +1119,7 @@ select:focus {
         padding-left: 0;
         margin-bottom: 3rem;
     }
+
     /*__GAMES-MAIN__*/
     /*header*/
     .header_games-main {
@@ -1107,6 +1182,7 @@ select:focus {
         margin-right: 1rem;
         font-weight: bold;
     }
+
     /*__GAMES-MAIN__*/
     /*header*/
     .section_games-main img {
@@ -1134,6 +1210,43 @@ select:focus {
 
 /*_____media-queries MAX 500px_____*/
 @media screen and (max-width: 500px) {
+    /*__INDEX__*/
+    /*header*/
+    .index_hero-content {
+        padding: 2rem 0 2rem;
+    }
+    .index_hero-btn {
+        padding: 2rem 3rem;
+        margin-top: 0;
+        font-size: 1.3rem;
+    }
+    .index_hero-content h1 {
+        display: none;
+    }
+    
+    .index_hero-content h2 {
+        margin-top: 1rem;
+        font-size: 1.2rem;
+        text-align: center;
+        margin-bottom: 1rem;
+        padding: 0 1rem;
+    }
+    
+    .index_hero-content h3 {
+        font-size: 0.8rem;
+        margin-bottom: 3rem;
+    }
+    /*main*/
+    .index_main a img {
+        width: 19rem;
+    }
+    .index_main-content {
+        margin-top: 0;
+        padding: 1rem;
+        height: 20rem;
+        min-width: 19rem;
+    }
+
     /*__CONTACT__*/
     .contact-cards-email, .contact-cards-phone {
         width: 100%;
@@ -1142,6 +1255,7 @@ select:focus {
         background-color: #035949;
         filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
     }
+
     /*__CONSOLE MAIN PAGES__*/
     .games-many_container a img {
         width: 18rem;
