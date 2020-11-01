@@ -1070,6 +1070,12 @@ select:focus {
         padding: 3rem;
         margin-bottom: 5rem;
     }
+    /*__ACCOUNT__*/
+    .account-flex {
+        padding: 8rem 13rem;
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 /*_____media-queries MAX 900px_____*/
@@ -1216,6 +1222,48 @@ select:focus {
         padding: 1.5rem;
         margin-bottom: 5rem;
     }
+
+    /*__SIGN IN__*/
+    .padding-top {
+        padding-top: 0;
+    }
+    .full-vh_header {
+        height: 100vh;
+    }
+    .checkout-flex {
+        height: 50rem;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .login-card {
+        padding: 2rem 2rem;
+        height: 30rem;
+        width: 20rem;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+    #signup-card {
+        height: 40rem;
+        padding: 2rem 2rem;
+    }
+    /*__ACCOUNT__*/
+    .account-flex section {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 2rem;
+    }
+    .account-flex {
+        padding: 8rem 0rem;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+    }
 }
 
 /*_____media-queries MAX 600px_____*/
@@ -1265,6 +1313,17 @@ select:focus {
         height: 100%;
         width: 20rem;
         padding: 1.5rem 1.5rem;
+    }
+    /*LOGIN*/
+    .checkout-flex {
+        height: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    .full-vh_header {
+        height: 100%;
     }
 }
 
@@ -1320,5 +1379,20 @@ select:focus {
     .games-many_container a img {
         width: 18rem;
         margin-right: 0;
+    }
+    /*__ACCOUNT__*/
+    .account-flex_profile {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        margin-bottom: 2rem;
+    }
+    .account-flex_profile img {
+        margin-right: 0;
+    }
+    
+    .account-flex_profile h1 {
+        margin-bottom: 0;
     }
 }
