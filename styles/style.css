@@ -174,14 +174,16 @@ a {
 /*-----GAMES-MAIN-----*/
 /*header--*/
 .header_games-main {
-    height: 100vh;
+    height: 100%;
 }
 
 .games-main_flex {
+    padding-top: 5rem;
     height: 100%;
     display: flex;
     align-items: center;
     justify-content: space-evenly;
+    margin-bottom: 5rem;
 }
 
 .games-main_flex > div {
@@ -262,6 +264,7 @@ a {
 .main-section_games-main {
     display: flex;
     margin-top: 1rem;
+    justify-content: center;
 }
 
 .main-section_games-main > a {
@@ -609,6 +612,8 @@ a {
     background-color: #00333181;
     padding: 5rem 15rem;
     display: flex;
+    justify-content: center;
+    align-items: center;
     text-align: center;
     filter: drop-shadow(0.2rem 0.2rem 0.2rem rgba(26, 26, 26, 0.37));
 }
