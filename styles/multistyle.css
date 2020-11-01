@@ -161,7 +161,7 @@ footer h2 {
 }
 
 .full-vh_header {
-    height: 100vh;
+    min-height: 100vh;
 }
 
 /*_____MEDIA-QUERIES max:900px_____*/

@@ -598,6 +598,13 @@ a {
 }
 
 /*-----CART NO ITEM-----*/
+.full-vh-2_header {
+    min-height: 100vh;
+}
+.cart-no-items_wrapper {
+    width: 100%;
+    padding: 0 5rem;
+}
 .no-item_section {
     background-color: #00333181;
     padding: 5rem 15rem;
@@ -653,10 +660,10 @@ a {
 }
 
 .checkout-flex {
-    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
+    height: 100vh;
 }
 
 .checkout-1_card h1 {
@@ -927,8 +934,8 @@ select:focus {
     display: flex;
 }
 
-/*_____media-queries MAX 1500px_____*/
-@media screen and (max-width: 1500px) {
+/*_____media-queries MAX 1550px_____*/
+@media screen and (max-width: 1550px) {
     /*__INDEX__*/
     /*main*/
     .index_main a img {
@@ -1076,6 +1083,33 @@ select:focus {
         display: flex;
         flex-direction: column;
     }
+    /*__CART__*/
+    .cart-cards_row-1 {
+        display: flex;
+        flex-direction: column;
+    }
+    .cart-cards_row-1_1 {
+        margin-right: 0;
+        margin-bottom: 2.5rem;
+    }
+    .total-sum {
+        width: 100%;
+    }
+    .cart-flex {
+        justify-content: center;
+        display: flex;
+        padding-left: 0;
+    }
+    .cart-flex .games-nav {
+        margin-right: 5rem;
+    }
+    /*__CART-NO-ITEM__*/
+    .no-item_section {
+        align-items: center;
+        justify-content: center;
+        padding: 5rem 5rem;
+    }
+
 }
 
 /*_____media-queries MAX 900px_____*/
@@ -1264,6 +1298,60 @@ select:focus {
         align-items: center;
         flex-direction: column;
     }
+    /*__CART__*/
+    .cart-flex {
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        padding-left: 0;
+    }
+    .cart-flex .games-nav {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .cart-cards_row-1_1 {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        text-align: center;
+        padding: 2.5rem;
+        margin-right: 0;
+        width: 100%;
+    }
+    .cart-cards .trash-can {
+        align-self: flex-start;
+    }
+    .cart-cards_row-1_2 {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+    .img-remove_container {
+        margin-right: 0;
+        margin-bottom: 2rem;
+    }
+    .cart-flex .games-nav {
+        margin-bottom: 5rem;
+    }
+    /*__CART NO ITEMS__*/
+    .no-item_section {
+        padding: 3rem;
+        margin-bottom: 3rem;
+    }
+    .cart-no-items_wrapper {
+        padding: 0 2.5rem;
+    }
+    /*__CHECKOUT__*/
+    .btn-left-small {
+        color: white;
+        position: relative;
+        top: 0;
+        left: 0;
+        margin: auto;
+        display: none;
+    }
 }
 
 /*_____media-queries MAX 600px_____*/
@@ -1315,15 +1403,26 @@ select:focus {
         padding: 1.5rem 1.5rem;
     }
     /*LOGIN*/
-    .checkout-flex {
-        height: 100%;
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: center;
-    }
     .full-vh_header {
         height: 100%;
+    }
+    /*NO ITEMS CART*/
+    .no-item_section {
+        padding: 1.5rem 1.5rem 3rem 1.5rem;
+    }
+    .cart-no-items_wrapper {
+        padding: 0rem;
+    }
+    .no-item_section div a {
+        background-color: #161616;
+        padding: 1.5rem 2rem;
+    }
+    .no-item_section div h2 {
+        margin-bottom: 3rem;
+        font-size: 1rem;
+    }
+    .no-item_section .no-items_logo {
+        width: 5rem;
     }
 }
 
@@ -1394,5 +1493,13 @@ select:focus {
     
     .account-flex_profile h1 {
         margin-bottom: 0;
+    }
+    /*__CHECKOUT__*/
+    .checkout-1_card {
+        padding: 2rem 1.5rem;
+    }
+    .checkout-complete_card {
+        padding: 1.5rem;
+        text-align: center;
     }
 }
